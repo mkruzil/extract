@@ -11,7 +11,7 @@ How to Use
 1. Download and extract the ZIP file to the desktop.
 2. Open Command Prompt and run the following commands:
 
-   `cd C:\Users\%username%\Desktop\extract-master\extact-master`
+   `cd C:\Users\%username%\Desktop\extract-master\extract-master`
 
    `python extract.py`
 
