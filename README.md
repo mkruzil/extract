@@ -1,18 +1,23 @@
 extract.py
 ==========
 
-Python script to apply data extraction rules on a CSV file.
+Python script to extracts table content from text copied off of a web page and convert it to a CSV file.
 
 How to Use
 ==========
 
-**Windows 10**
-
 1. Download and extract the ZIP file to the desktop.
-2. Open Command Prompt and run the following commands:
+
+**Windows 10**
+2a. Open Command Prompt and run the following commands:
 
    `cd C:\Users\%username%\Desktop\extract-master\extract-master`
-
    `python extract.py`
 
-This will apply the rules to the `data.csv` file and output the result to `results.csv`.
+**MacOS**
+2b. Open Terminal and run the following commands:
+
+   cd /Users/$USER/Desktop/extract-master
+   `python extract.py`
+
+This will apply the extraction to the `content.txt` file and output the result to `results.csv`.

@@ -1,0 +1,13 @@
+Start extraction here
+Heading1	Heading2	Heading3	Heading4	Heading5
+Value1a
+Value2a
+Value3a
+Value4a
+Value5a
+Value1b
+Value2b
+Value3b
+Value4b
+Value5b
+End extraction here
