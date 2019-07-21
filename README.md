@@ -1,7 +1,7 @@
 extract.py
 ==========
 
-Python script to extract tabular data from ASCII text copied off a web page.
+Python script to extract tabular data from ASCII text copied from a web page.
 
 How to Use
 ==========
