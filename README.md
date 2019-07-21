@@ -6,7 +6,7 @@ Python script to extract tabular data from ASCII text copied from a web page.
 How to Use
 ==========
 
-1) Download and extract the ZIP file to the desktop.
+0) Download and extract the ZIP file to the desktop.
 
 **Windows 10**
 
