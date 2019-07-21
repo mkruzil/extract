@@ -1,10 +1,10 @@
 '''
-	===========================================================================
-    Filename:     	extract.py
-    Description:    Extracts table content from text copied off of a web page
-    Author:   	    Michael Kruzil (mkruzil@mikruweb.com) 
+    ===========================================================================
+    Filename:       extract.py
+    Description:    Extracts tablular data from ASCII text copied off a web page
+    Author:         Michael Kruzil (mkruzil@mikruweb.com) 
     Date Created:   7/21/2019 3:00 PM
-	===========================================================================
+    ===========================================================================
 '''
 import functions
 

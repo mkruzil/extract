@@ -1,10 +1,10 @@
 '''
-	===========================================================================
-    Filename:     	functions.py
+    ===========================================================================
+    Filename:       functions.py
     Description:    Functions used by extract.py
-    Author:   	    Michael Kruzil (mkruzil@mikruweb.com) 
+    Author:         Michael Kruzil (mkruzil@mikruweb.com) 
     Date Created:   7/21/2019 3:00 PM
-	===========================================================================
+    ===========================================================================
 '''
 
 #Read the contents of a text file into a string
