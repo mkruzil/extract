@@ -9,17 +9,17 @@
 import functions
 
 #Convert the content in the file to a string variable
-str = functions.openTXT("content.txt")
+txt = functions.openTXT("content.txt")
 
 #Step 1: Indicate the start and end markers of the table content in the string
 start_marker = "Start extraction here"
 end_marker = "End extraction here"
 
 #Step 2: Extract the table content from the string
-str = functions.trimText(start_marker, end_marker, str)
+txt = functions.trimText(start_marker, end_marker, txt)
 
 #Step 3: Convert the table content to a table array
-rows = functions.convertWebTextToTable(str)
+rows = functions.convertWebTextToTable(txt)
 
 #Step 4: Pop off the headings row
 headings = functions.getHeadings(rows)

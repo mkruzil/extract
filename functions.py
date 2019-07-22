@@ -10,14 +10,16 @@
 #Read the contents of a text file into a string
 def openTXT(path):
     file = open(path, "r")
-    str = file.read()
-    return str
+    contents = file.read()
+    #Remove carriage returns
+    contents = contents.replace("\r", "")
+    return contents
 
 #Get the contents of a CSV file
 def openCSV(path):
     #Get the contents of the file
-    str = openTXT(path)
-    arr = str.split()
+    contents = openTXT(path)
+    arr = contents.split()
 
     #Convert the array into table rows
     rows = []
@@ -80,22 +82,22 @@ def saveCSV(headings, rows, path):
     rows.insert(0, headings)
 
     #Convert the rows back to a string
-    str = ""
+    contents = ""
     hlen = len(headings)
     rlen = len(rows)
     i = 0
     for row in rows:
         j = 0
         for value in row:
-            str += value
+            contents += value
             if j < hlen - 1:
-                str += "," 
+                contents += "," 
             else:
                 if i < rlen - 1:
-                    str += "\n"
+                    contents += "\n"
             j += 1 
         i += 1
 
     #Write the results to a new file
     file = open(path, "w")
-    file.write(str)  
+    file.write(contents)  
